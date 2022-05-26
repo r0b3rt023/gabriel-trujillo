@@ -1,0 +1,26 @@
+p {
+    text-align: justify;
+}
+
+.div-description {
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    background-color: #DDE2E6;
+}
+
+.div-apartado {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.div-apartado img {
+    border-radius: 7px;
+    margin: 0px!important;
+    box-shadow: 0 1rem 3rem #717171!important;
+}
+
+.div-aboutme:hover {
+    box-shadow: 0 1rem 3rem #C3C3C3!important;
+}
