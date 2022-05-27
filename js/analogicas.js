@@ -18,7 +18,7 @@ function createImg(index) {
     div.classList.add("carousel-item", "w-100");
     //Creamos la imagen
     const img = document.createElement('img');
-    img.src = '/img/analogicas/' + index  + '.jpg';
+    img.src = './img/analogicas/' + index  + '.jpg';
     img.classList.add("d-block", "w-100", "img-carousel");
     //Comprobamos el indice
     if(index == 0) {
@@ -44,7 +44,7 @@ function createIndicators(index) {
 }
 
 function createCard(index) {
-    const src = '/img/analogicas/' + index  + '.jpg';
+    const src = './img/analogicas/' + index  + '.jpg';
 
     const div = 
     `<div class="col main-card">
