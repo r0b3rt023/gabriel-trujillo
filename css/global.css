@@ -3,4 +3,5 @@
 body {
     background-color: #FFF8E7 !important;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
