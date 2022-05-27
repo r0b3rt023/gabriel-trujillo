@@ -1,11 +1,12 @@
 .parallax {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("../img/analogicas/horizontales/10.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url("/img/analogicas/10.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
-
+    min-width: 100vw;
     min-height: 100vh; 
+    text-align: center;
 }
 
 .parallax h1 {
@@ -16,3 +17,9 @@
 .parallax h3 {
     margin-top: 20px;
 }
+/* 
+@media screen and (max-width: 650) {
+    .parallax {
+        fon
+    }
+} */

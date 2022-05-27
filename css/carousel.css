@@ -1,3 +1,9 @@
-#carouselAnalogicasHorizontales {
-    width: 600px;
+#carouselImagenes {
+    height: 90vh;
+    width: 100vw;
+}
+
+.img-carousel {
+    object-fit: cover;
+    height: 90vh;
 }

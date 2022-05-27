@@ -10,17 +10,39 @@ p {
     background-color: #DDE2E6;
 }
 
-.div-apartado {
-    margin-left: 80px;
-    margin-right: 80px;
+.div-apartado h1 {
+    font-weight: bolder;
 }
 
 .div-apartado img {
-    border-radius: 7px;
     margin: 0px!important;
-    box-shadow: 0 1rem 3rem #717171!important;
+    object-fit: cover;
 }
 
-.div-aboutme:hover {
-    box-shadow: 0 1rem 3rem #C3C3C3!important;
+.div-aboutme {
+    background-color: white;
+}
+
+.card-polaroid {
+    width: 500px;
+    border-radius: 0px;
+    background-color:white;
+    padding: 10px 10px 50px 10px;
+    border:1px solid #BFBFBF !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px !important;
+}
+
+.rotate-left {
+    transform:scale(0.9, 0.9) rotate(10deg) !important;
+    -ms-transform:rotate(10deg); /* IE9 */
+    -webkit-transform:rotate(10deg); /* Safari y Chrome */
+    -moz-transform:rotate(10deg); 
+    transition: all 0.35s;
+}
+
+.rotate-right {
+    transform:rotate(-10deg);
+    -ms-transform:rotate(-10deg); /* IE9 */
+    -webkit-transform:rotate(-10deg); /* Safari y Chrome */
+    -moz-transform:rotate(-10deg); 
 }
