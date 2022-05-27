@@ -50,11 +50,7 @@ function createCard(index) {
     `<div class="col main-card">
         <a href=`+src+` target="_blank">
         <div class="card shadow-sm card-polaroid">
-            <div class="pushpin"></div>
             <img src=`+src+` class="card-img" height="300px"/>
-            <div class="show-img">
-                <i class="fa-solid fa-eye fa-5x"></i>
-            </div>
         </div>
         </a>
     </div>`;
