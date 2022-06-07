@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Titillium+Web:wght@300&display=swap');
+@import url("db.onlinewebfonts.com/c/9ab8abd11c40ee5c8d1905f9c9cb9ac8?family=Futura");
 
 body {
-    background-color: #FFFCF3 !important;
-    font-family: 'Roboto', sans-serif;
-    overflow-x: hidden;
+    background-color: white !important;
+    font-family: 'Futura', sans-serif;
+    text-transform: uppercase;
 }

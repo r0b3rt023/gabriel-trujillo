@@ -1,21 +1,28 @@
 .card-img {
     cursor: pointer;
-    border-radius: 2px;
-    object-fit: cover;
+    border-radius: 0px;
+    object-fit: cover;  
     transition: all 0.4s ease-in-out;
+}
+
+.card-img-adjusted {
+    object-position: 0px 15%;
 }
 
 .card-polaroid {
     border-radius: 0px;
     background-color:white;
     padding: 20px;
-    border:1px solid #BFBFBF !important;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important;
+    /* border:1px solid #BFBFBF !important; */
+    /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px !important; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
     image-rendering: crisp-edges;
 }
 
 .main-card {
     transition: all 0.4s ease-in-out;
+    border: none !important;
+    background: none;
 }
 
 .main-card:hover .card-img {
