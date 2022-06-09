@@ -4,4 +4,5 @@ body {
     background-color: white !important;
     font-family: 'Futura', sans-serif;
     text-transform: uppercase;
+    overflow-x: hidden;
 }

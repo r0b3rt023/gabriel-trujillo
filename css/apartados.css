@@ -15,58 +15,36 @@
 }
 
 
-.seccion a {
+.secciones a {
   color: white;
-  text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+  /* text-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
   text-decoration: none;
-  -webkit-text-stroke: 1px black;
+  /* -webkit-text-stroke: 1px black; */
   text-align: center;
 }
 
+.show-gallery {
+  opacity: 0;
+}
+
+.seccion:hover .show-gallery {
+  opacity: 1;
+  transition: ease-in-out .5s;
+}
+
+.seccion:not(:hover) .show-gallery {
+  opacity: 0;
+  transition: ease-in-out .5s;
+}
+
 #montajes {
-  background-position: 50% 30%;
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  object-fit: cover;
-  width: 100%;
+  background-position:  50% 30%;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-
   .seccion {
     background-position: 75% 50%;
   }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-  
-
 }

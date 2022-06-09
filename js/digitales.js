@@ -1,5 +1,5 @@
 const gridFotos = document.getElementById("gridFotos");
-const numImagenesDigitales = 30;
+const numImagenesDigitales = 36;
 
 window.onload = function() {
     for (let i = numImagenesDigitales; i >= 1; i--) {
