@@ -5,7 +5,7 @@
 
 .seccion {
   min-width: 90vw;
-  min-height: 80vh; 
+  min-height: 80vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -22,6 +22,7 @@
   text-shadow: 2px 1px 1px #FF00CC, -2px 1px 1px #00FFEE, 0 0 0 #FFF, 0 -2px 1px #F5FF00;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
 }
 
 .show-gallery {
@@ -39,11 +40,7 @@
 }
 
 #montajes {
-  background-position:  50% 30%;
-}
-
-#videos {
-  background-position: 85% 50%;
+  background-position: 50% 30%;
 }
 
 @media screen and (max-width: 800px) {

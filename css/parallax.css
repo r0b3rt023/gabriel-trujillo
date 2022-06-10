@@ -31,15 +31,19 @@
 
 .parallax h1 {
     font-size: 5em;
+    letter-spacing: 35px;
     margin-top: 20px;
 }
 
 .parallax h3 {
     margin-top: 20px;
+    margin-left: -20px;
 }
-/* 
-@media screen and (max-width: 650) {
-    .parallax {
-        fon
+
+@media screen and (max-width: 780px) {
+    .parallax h1 {
+        font-size: 4em;
+        letter-spacing: 5px;
+        margin-top: 20px;
     }
-} */
+}
