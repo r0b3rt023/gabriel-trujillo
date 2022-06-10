@@ -40,23 +40,11 @@
     height: 600px;
     background: rgba(255,255,255, 0.3);
     transform: skewX(-30deg);
-    transition: 0.5s;
+    transition: 0.5s ease-in;
 }
 
-/* .shine-effect::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 2%;
-    width: 50px;
-    height: 600px;
-    background: rgba(255,255,255, 0.3);
-    transform: skewX(-30deg);
-    transition: 0.5s;
-} */
-
 .shine-effect:hover::before {
-    left: 105%;
+    left: 110%;
 }
 
 /* .shine-effect {

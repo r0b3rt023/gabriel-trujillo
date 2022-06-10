@@ -7,6 +7,16 @@ body {
     overflow-x: hidden;
 }
 
+header strong {
+    letter-spacing: 10px ;
+}
+
 footer span {
     text-transform: none;
+}
+
+@media screen and (max-width: 500px) {
+    header strong {
+        letter-spacing: 4px ;
+    }
 }

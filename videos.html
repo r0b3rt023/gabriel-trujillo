@@ -15,14 +15,13 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/global.css">
     <link rel="stylesheet" href="./css/videos.css">
-    <link rel="stylesheet" href="./css/header.css">
     <title>Videos</title>
     <link rel="icon" type="image/x-icon" href="./img/fav.svg">
 </head>
 <body>
     <header class="navbar navbar-dark bg-dark shadow-sm sticky-top">
         <div class="container d-flex justify-content-center">
-          <a href="./index.html#analogicas" class="navbar-brand d-flex align-items-center">
+          <a href="./index.html#videos" class="navbar-brand d-flex align-items-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2" viewBox="0 0 24 24"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
             <strong>Gabriel Trujillo</strong>
           </a>
@@ -36,12 +35,18 @@
     </div>
 
     <div class="main-videos">
+        <div id="video-yt" class="row">
+            <iframe class="col" src="https://www.youtube.com/embed/8f9domcCnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
         <div class="row">
             <div class="col apartado-video d-flex justify-content-center">
                 <iframe src="https://www.youtube.com/embed/PC1VXINkkpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col apartado-img d-flex justify-content-center shine-effect">
-                <img id="img-ajustada-trineo" src="./img/montajes/20.jpg"/>
+                <a href="./img/montajes/20.jpg" target="_blank">
+                    <img id="img-ajustada-trineo" src="./img/montajes/20.jpg"/>
+                </a>
             </div> 
         </div>
 
@@ -50,17 +55,26 @@
                 <iframe src="https://www.youtube.com/embed/_WBkK8gOjys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col apartado-img d-flex justify-content-center shine-effect">
-                <img id="img-ajustada-lobo" src="./img/montajes/23.jpg"/>
+                <a href="./img/montajes/23.jpg" target="_blank">
+                    <img id="img-ajustada-lobo" src="./img/montajes/23.jpg"/>
+                </a>
             </div>
         </div>
 
-        <div id="video-yt" class="row">
-            <iframe class="col" src="https://www.youtube.com/embed/8f9domcCnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col apartado-video d-flex justify-content-center">
+                <iframe width="1255" height="706" src="https://www.youtube.com/embed/ar3dg6SGCaE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col apartado-img d-flex justify-content-center shine-effect">
+                <a href="./img/montajes/22.jpg" target="_blank">
+                    <img src="./img/montajes/22.jpg"/>
+                </a>
+            </div>
         </div>
         
     </div>
 
-    <div class="container w-100">
+    <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">

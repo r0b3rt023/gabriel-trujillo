@@ -3,20 +3,22 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;  
-    background-color: lightgray;
     min-width: 100vw;
     min-height: 100vh; 
     text-align: center;
     opacity: 1;
     transition: opacity .5s ease-in-out;
+    filter: grayscale(20%);
+
+    text-shadow: 2px 1px 1px #FF00CC, -2px 1px 1px #00FFEE, 0 0 0 #FFF, 0 -2px 1px #F5FF00;
 }
 
 .parallax.fade-out {
-    opacity: 0.3;
+    opacity: 0.75;  
 }
 
 .parallax.fade-in {
-    opacity: 1;
+    opacity: 1;   
 }
 
 .parallax.fade-out h1, h2 {
