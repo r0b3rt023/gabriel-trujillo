@@ -25,7 +25,7 @@
 }
 
 .show-gallery {
-  opacity: 0;
+  opacity: 1;
 }
 
 .seccion:hover .show-gallery {
@@ -42,9 +42,13 @@
   background-position:  50% 30%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .seccion {
     background-position: 75% 50%;
+  }
+
+  .seccion:not(:hover) .show-gallery {
+    opacity: 1;
+    transition: ease-in-out .5s;
   }
 }

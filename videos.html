@@ -30,29 +30,35 @@
     </header>
 
     <div class="d-flex flex-row justify-content-center">
-        <a href="https://www.youtube.com/channel/UC5fRomRU3x28JqkDArspCCg" target="_blank" class="d-flex flex-row justify-content-center mt-2">
-            <img width="8%" src="./img/perfil/logoYT.png"/>
+        <a href="https://www.youtube.com/channel/UC5fRomRU3x28JqkDArspCCg" target="_blank" class="d-flex flex-row justify-content-center my-2">
+            <img id="logoYT" src="./img/perfil/logoYT.png"/>
         </a>
     </div>
 
     <div class="main-videos">
-        <div class="row apartado-video">
-            <iframe class="col-6" src="https://www.youtube.com/embed/PC1VXINkkpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <img class="col-6 shine-effect" width="50%" src="./img/montajes/20.jpg"/>
+        <div class="row">
+            <div class="col apartado-video d-flex justify-content-center">
+                <iframe src="https://www.youtube.com/embed/PC1VXINkkpY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col apartado-img d-flex justify-content-center shine-effect">
+                <img id="img-ajustada-trineo" src="./img/montajes/20.jpg"/>
+            </div> 
         </div>
 
-        <div class="row apartado-video">
-            <iframe class="col-6" src="https://www.youtube.com/embed/_WBkK8gOjys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <img id="img-ajustada" class="col-6" width="20%" src="./img/montajes/23.jpg"/>
+        <div class="row">
+            <div class="col apartado-video d-flex justify-content-center">
+                <iframe src="https://www.youtube.com/embed/_WBkK8gOjys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col apartado-img d-flex justify-content-center shine-effect">
+                <img id="img-ajustada-lobo" src="./img/montajes/23.jpg"/>
+            </div>
         </div>
 
         <div id="video-yt" class="row">
-            <iframe class="col-12" src="https://www.youtube.com/embed/8f9domcCnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="col" src="https://www.youtube.com/embed/8f9domcCnN4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         
     </div>
-
-    
 
     <div class="container w-100">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">

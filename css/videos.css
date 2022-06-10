@@ -1,18 +1,84 @@
-.main-videos div {
-    margin: 50px;
+#logoYT {
+    width: 10vw;
+}
+
+.main-videos > div {
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 20px;
 }
 
-.apartado-video {
+.apartado-video iframe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 45vw;
     height: 45vh;
 }
 
-.apartado-video>img {
+.apartado-img img {
+    margin-left: auto;
+    margin-right: auto;
     object-fit: cover;
     height: 45vh;
+    width: 50vw;
 }
 
-#img-ajustada {
+.apartado-img {
+    position: relative;
+}
+
+.shine-effect {
+    overflow: hidden;
+}
+
+.shine-effect:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 80px;
+    height: 600px;
+    background: rgba(255,255,255, 0.3);
+    transform: skewX(-30deg);
+    transition: 0.5s;
+}
+
+/* .shine-effect::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 2%;
+    width: 50px;
+    height: 600px;
+    background: rgba(255,255,255, 0.3);
+    transform: skewX(-30deg);
+    transition: 0.5s;
+} */
+
+.shine-effect:hover::before {
+    left: 105%;
+}
+
+/* .shine-effect {
+    overflow: hidden;
+}
+
+.shine-effect:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 600px;
+    background: rgba(255,255,255, 0.3);
+    transform: skewX(-30deg);
+} */
+
+#img-ajustada-trineo {
+    object-fit: cover;
+}
+
+#img-ajustada-lobo {
     object-fit: cover;
     object-position: 0% 30%;
 }
@@ -24,12 +90,25 @@
     margin-right: auto;
 }
 
-.shine-effect:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 20px;
-    width: 200px;
-    height: 150px;
-    background-color: black;
+@media screen and (max-width: 960px) {
+    .main-videos > div {
+        margin-bottom: 20px;
+    }
+    
+    .apartado-video iframe {
+        margin-bottom: 10px;
+        width: 90vw;
+    }
+
+    .apartado-img img {
+        width: 90vw;
+    }
+
+    #video-yt {
+        width: 95vw;
+    }
+
+    #logoYT {
+        width: 30vw;
+    }
 }

@@ -6,3 +6,7 @@ body {
     text-transform: uppercase;
     overflow-x: hidden;
 }
+
+footer span {
+    text-transform: none;
+}
