@@ -26,7 +26,6 @@ async function changeBackground() {
         parallax.style.cssText = 'background-image: url("' + image3 + '")';
         imgActual = 1;
     }
-
     // parallax.classList.add('fade-in');
     // parallax.classList.remove('fade-out');
 }

@@ -37,7 +37,7 @@
 
 .parallax h3 {
     margin-top: 20px;
-    margin-left: -20px;
+    /* margin-left: -5px; */
 }
 
 @media screen and (max-width: 780px) {
